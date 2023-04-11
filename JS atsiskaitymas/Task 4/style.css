@@ -7,6 +7,52 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+header {
+  background-color: #b5aaaa;
+  color: white;
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer {
+  background-color: #b5aaaa;
+  color: white;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.brand {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #b5aaaa;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand h2 {
+  margin-top: 0;
+}
+
+.brand ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.brand li {
+  margin-bottom: 5px;
+}
+
+#output {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 40px;
+}
+
 /* Mobile first */
 .wrapper {
   min-height: 100vh;

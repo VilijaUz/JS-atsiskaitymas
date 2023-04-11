@@ -6,7 +6,47 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
-
+header{
+text-align: center;
+padding-top: 20px;
+height: 100px;
+display: flex;
+justify-content: center; 
+align-items: center; 
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  margin: 0 10px; 
+}
+footer {
+  background-color: #b5aaaa;
+  color:black;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+#message {
+  display: none;
+}
+.user-card {
+  display: inline-block;
+  margin: 0 10px 20px;
+  width: calc(33.33% - 20px);
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.user-card img {
+  width: 100%;
+  height: auto;
+}
+.user-card h3 {
+  margin: 10px 0;
+} 
 /* Mobile first */
 .wrapper {
   min-height: 100vh;

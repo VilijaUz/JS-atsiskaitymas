@@ -7,6 +7,44 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+}
+
+header li {
+  margin-left: 10px;
+}
+
+header li:first-child {
+  margin-left: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  color: black;
+}
+
 /* Mobile first */
 .wrapper {
   min-height: 100vh;
@@ -50,6 +88,32 @@ form {
   cursor: pointer;
   background-color: #000;
   color: #fff;
+}
+
+#output {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1rem;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 /* Tablet */
